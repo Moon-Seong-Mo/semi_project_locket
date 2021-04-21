@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="171CC294-F3EC-503B-18AE-EB3ED2830C75" schemaObject="5B0D4C91-3443-5659-C6FB-27D404CE0B20" name="MEMBER_RANK">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>271014D7-CCA1-A514-5CCD-5D5F687910AB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RANK_CODE" id="1D1197B7-9F58-84A2-C13F-D8CF955254F4">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>B2E66E5A-5C95-BA59-2AE5-1F317BC0AFCF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RANK_NAME" id="84431819-A94D-78A3-B0C8-CD101AA20452">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>37E6CD7D-5020-91C9-8338-ADF07BCA5C35</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A01AA1FA-2502-85BB-CD54-E5922C815D00" schemaObject="5B0D4C91-3443-5659-C6FB-27D404CE0B20" name="MEMBER_RANK_PK">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>33547C42-50EE-9D53-B776-471BDA21B75B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D1197B7-9F58-84A2-C13F-D8CF955254F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

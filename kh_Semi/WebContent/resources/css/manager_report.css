@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+
+* {
+   font-family: 'Noto Sans KR', sans-serif;
+}
+	
+#content>h1{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 35px;
+	margin-left: 50px;
+	font-weight: bold;
+}
+	
+.Report_list_wrap{
+		width: 100%;
+	padding: 50px;
+}
+
+.Report_list {
+	width: 100%;
+	border-top: 2px solid navy;
+}
+
+.Report_list tr {
+	border-bottom: 1px solid #ccc;
+}
+
+.Report_list th, .Report_list td {
+	padding: 10px;
+	font-size: 15px;
+}
+
+.Report_list thead * {
+	text-align: center;
+}
+
+.Report_list tbody * {
+	text-align: center;
+}
+
+.Report_list tbody tr td:nth-child(2) {
+	text-align: center;
+}
+
+.paging {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.paging button {
+	padding: 5px 10px;
+	border: 1px solid #D5D5D5;
+	border-radius: 2px;
+	font-size: 12px;
+	background-color: rgba(245, 245, 245, 245);
+}
+
+#choosen {
+	background: #FFD8D8;
+}
+
+table#tom-table {
+    font-size: 14px;
+    text-align: center;
+}
+
+#formbo {
+	margin-left: 50px;
+    margin-bottom: -50px;
+}
+
+#report_category{
+	width: 130px;
+    height: 40px;
+	font-weight: bold;
+	border: 2px solid black;
+	margin-left: 50px;
+}
+
+#search{
+	width:80px;
+	height: 40px;
+	font-weight: bold;
+}
+
+#btn1 {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 700px;
+    font-size: large;
+}
+
+#btn2 {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: 1px solid orange;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 720px;
+    font-size: large;
+}

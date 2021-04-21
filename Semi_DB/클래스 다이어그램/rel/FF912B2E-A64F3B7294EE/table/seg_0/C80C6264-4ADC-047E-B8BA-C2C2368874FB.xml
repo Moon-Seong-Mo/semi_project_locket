@@ -1,0 +1,283 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C80C6264-4ADC-047E-B8BA-C2C2368874FB" schemaObject="5B0D4C91-3443-5659-C6FB-27D404CE0B20" name="MEMBER">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>C1B050AE-D833-4E09-C857-71EDD442DA20</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEMBER_ID" id="EEAC1B0A-8828-6779-5B0C-1FEDF4819CD1">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>96C8BE4C-3ABA-26C3-8ED9-184A484745BF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_PW" id="07FFA9CA-49CD-A568-2AEA-43A4968D9B20">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>569015DC-4786-FC7D-1FE3-2CE2B4AB3088</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PW_HINT" id="EAC06391-F07F-7B75-6072-2F622662C577">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>7544C665-0B98-94F8-5CC9-44BAAA8FA452</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PW_HINT_ANS" id="D870A064-9B7E-5829-512C-84AA1736EE4E">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>4CCBA95E-11D7-1108-3C4F-CFA0E8C1CD0C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER" id="366A7AD6-3A1F-6B11-83C9-B34D226BB158">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>6AC128B2-4111-C6FC-F393-060845D93C6A</importedID>
+<constraintName>M_GENDER_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;F&apos;" description=""/>
+<valueDef value="&apos;M&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="B48B7BA0-71A4-9074-1DB7-1E497A226091">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>A8D50052-9431-1278-C8D8-C08459066E86</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="BB2049F7-B3E4-4B56-D8E6-C0C2FB37C2D9">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>3890FD93-0DCA-B235-B4C9-407566E4F97A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBERNAME" id="892BCF65-485B-F04C-B591-F5A80792B7FA">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>7786E8D1-D6A2-7A9F-5585-D33DEBEDC499</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANK" id="EB1A7A66-04EB-1797-06E5-327148A59133">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>A278A06C-9853-0293-440C-7127F08261F3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT_NUMBER" id="3BB7A848-72D8-3258-F867-3AFC63C9A23F">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>8D97F82C-D745-9F15-DFC3-3C4B3CCF3CC1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_PW" id="3DCF64D7-77CF-A959-53E7-B73A6CCB0EE9">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>55ACA3A3-284A-CF60-A655-7D269366C8B1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RANK_CODE" id="2E0AF61C-305D-0E1A-3C87-71EFB5AC1D54">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>D5A87C6F-0C90-1C94-D047-2782DADA3183</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C89F849-D0E9-F7A7-9F0A-153E52A92293" referredColumn="1D1197B7-9F58-84A2-C13F-D8CF955254F4"/>
+</associations>
+</Column>
+<Column name="JOIN_DATE" id="33007E82-82FC-1199-7D60-64409909A7F0">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>58D6456B-9036-2453-1E91-D86BF1B3F7F8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INCHECK" id="1C85E565-58B7-2C5B-D0F6-66555F3B1364">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>19976756-C52E-2C0D-88B3-C4423CED6C71</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;Y&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="M_CHECK" id="C766C159-056C-9DE8-DB78-E95B57E4CFB9">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>113DE78C-61B0-FF1B-D03E-574B0E185BB1</importedID>
+<constraintName>M_MC_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="P_IMAGE" id="8447418B-5952-C91C-D84C-CB7EDEFF82E6">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>EDE766CF-D186-B824-1ACA-C521CBF66AE9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="M_DATE" id="40CAB117-3C43-5B99-E893-C5CE319F0DAF">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>205F3272-B5B6-37C7-FB64-C854374AB369</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="S_CHECK" id="7B497AB1-7B84-6C40-7738-11797D31C4C1">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>9AE99572-F97C-BE7F-DC9A-1C99A3207549</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5C164DC-7123-144D-BF0F-EFC343B3B4D1" schemaObject="5B0D4C91-3443-5659-C6FB-27D404CE0B20" name="MEMBER_PK">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>541A9EC3-1C19-C150-3087-057F3FB2679D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEAC1B0A-8828-6779-5B0C-1FEDF4819CD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AA346BE-C729-F0E4-7D9B-26F58624C769" schemaObject="5B0D4C91-3443-5659-C6FB-27D404CE0B20" name="MEMBER_MEMBERNAME_UN">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>4ED33E26-89AB-762A-8A9A-7E30D5253A1D</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="892BCF65-485B-F04C-B591-F5A80792B7FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="645DE6DE-F308-7168-A43F-8C682FC39C8A" name="M_RC_FK">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E0AF61C-305D-0E1A-3C87-71EFB5AC1D54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

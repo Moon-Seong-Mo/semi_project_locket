@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+	background: #fffcf5;
+}
+
+#updateAddress th {
+	font-weight: bold;
+	margin-right: 30px;
+	margin-left: 50px;
+	font-size: 18px;
+}
+
+#updateAddress input[type="text"] {
+	height: 20px;
+	margin-left: 30px;
+}
+
+#updateAddress tr {
+	height: 50px;
+}
+
+.btns input, #findBtn {
+	background: #eaeae1;
+	border-radius: 10px;
+	border: 1px solid #eaeae1;
+	font-weight: bold;
+	width: 100px;
+	height: 30px;
+	margin-right: 30px;
+}

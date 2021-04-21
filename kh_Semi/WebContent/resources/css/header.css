@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+#header {
+	width: 100%;
+	font-family: 'Noto Sans KR', sans-serif;
+/* 	background: #ffedb3; */
+}
+
+#header * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#logo-img {
+	width: 60px;
+	margin: 10px;
+	margin-right: 0px;
+	margin-top: 25px;
+}
+
+#header-text {
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 20%;
+}
+
+#logo-text {
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 45px;
+	color: #df7d35;
+	margin-left: 0px;
+	margin-top: 25px;
+}
+
+#header-search input{
+	border : 2px solid #df7d35;
+	width: 350px;
+	height: 35px;
+	margin-left: 260px;
+	font-weight: bold;
+
+}
+
+#header-search button {
+	border : 2px solid #df7d35;
+	height: 35px;
+	width: 50px;
+	color: white;
+	font-weight: bold;
+	background: #df7d35;
+}
+
+#account {
+	margin-left: 130px;
+}
+
+#id-area input {
+	width: 130px;
+	height: 30px;
+	margin-top: 20px;
+}
+
+#id-area button {
+	width: 80px;
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 20px;
+	background: white;
+	color: #df7d35;
+	font-weight: bold;
+	border: 1px solid #df7d35;
+	border-radius: 3px;
+	
+}
+
+#pw-area input {
+	width: 130px;
+	height: 30px;
+	margin-top: 5px;
+}
+
+#pw-area button {
+	width: 80px;
+	height: 25px;
+	margin-left: 10px;
+	background: white;
+	color: #df7d35;
+	font-weight: bold;
+	border: 1px solid #df7d35;
+	border-radius: 3px;
+	
+}
+
+#account_info {
+	margin-left: 5%;
+}
+
+#profileArea {
+	width: 60px;
+    height: 60px; 
+    border-radius: 70%;
+    overflow: hidden;
+}
+
+#profileArea img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;	
+}
+
+#profileArea * {
+	cursor: pointer;
+}
+
+#memberImg {
+	width: 60px;
+	border-radius: 50px;
+}
+
+#memberIcon {
+	font-size: 30px;
+	margin-right: 10px;
+	margin-left: 50px;
+}
+
+#membername {
+	width: 85px;
+	height: 40px;
+	background: #fffcf5;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 50px;
+}
+
+#memberbtn button {
+	width: 100px;
+	height: 25px;
+	margin-left: 10px;
+	background: #fffcf5;
+	color: #df7d35;
+	font-weight: bold;
+	border: 1px solid #fffcf5;
+	border-radius: 3px;
+}
+
+#alarm button{
+   ourline: none;
+   font-size: 30px;
+   border: none;
+   color: #e6b800
+}

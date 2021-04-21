@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRODUCT_COMMENT" directorySegmentName="seg_0" id="3F0B0017-5326-74A1-47C4-F1269495375C">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<schemaObject>5B0D4C91-3443-5659-C6FB-27D404CE0B20</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A23B3183-76D4-DC02-2D49-870D289B8DC4</segment>
+<tableSpace>BE77A888-9594-4537-EE98-B937267103E2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="WR_DATE" id="57CD26C5-7B75-C840-A6C7-CA651E24C426">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMBER_ID" id="5EC9111F-C3C5-AECC-A156-72BC76CB300B">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="O_NUM" id="859CA09F-A1B5-B6D1-7589-ECFCED30419E">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMENT_NUM" id="9933980B-B515-1233-7C6A-15BDAB96A006">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="D12B493C-67F3-CC5D-1CCC-E1078AF08B1C">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<defaultValue>&apos;Y&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="COMMENT_C" id="D164B50D-4C7C-731F-48C7-883DE1AAD279">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PC_MID_FK" id="9936DFF1-CD7F-10E7-61AB-0C64D1A87E3A">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PC_ONUM_FK" id="A1A5B800-8C7B-0668-9942-BEB04C850520">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCT_COMMENT_PK" id="85550756-C73D-E973-A396-1BCE566517F1">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<schemaObject>5B0D4C91-3443-5659-C6FB-27D404CE0B20</schemaObject>
+<segment>61D73139-5124-347D-5F91-A8CB39A5DE2A</segment>
+<tableSpace>BE77A888-9594-4537-EE98-B937267103E2</tableSpace>
+<indexSegment>61D73139-5124-347D-5F91-A8CB39A5DE2A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

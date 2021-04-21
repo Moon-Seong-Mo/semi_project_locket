@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/*board_write(manager) */
+#notice_category{
+	height: 40px;
+	width: 160px;
+	margin-left: 30px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+
+/* 게시판 영역 css */
+
+#b_write_comments{
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	background: rgb(0, 153, 250);
+	width: 70px;
+	height: 30px;
+	border: 1px solid white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#report{
+	color: red; 
+	font-weight: bold; font-size:13px; 
+	margin-left: 790px;
+}
+
+#button1{
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	background: rgb(0, 153, 250);
+	width: 70px;
+	height: 30px;
+	border: 1px solid white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.writer{
+	color: red; border: 1px solid red;
+	font-size: 12px;
+	margin-left: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#note {
+	padding-left: 10px;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	background: rgb(0, 211, 0);
+	width: 70px;
+	height: 30px;
+	border: 1px solid white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#b_contents{
+	width: 850px;
+	height: 550px;
+/* 	border: 1px solid black; */
+}
+
+#b_comments{
+	width: 850px;
+	height: 300px;
+/* 	border: 1px solid red; */
+}
+
+#content>textarea{
+	width: 900px; height: 500px;
+	margin-left: 35px;
+	resize: none;
+	color: gray;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#write{
+	background-color: orange;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid orange;
+    width: 110px;
+    height: 40px;
+}
+
+#list{
+	background-color: gray;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid gray;
+	width: 110px;
+	height: 40px;   
+	margin-left: 65%;
+}
+
+
+#setFile input {
+	margin-left: 50px;
+}
+
+#notice{
+	font-size:25px;
+	font-weight:bold;
+}
+#notice input{
+	zoom : 1.5;
+	margin-right:5px;
+}
+
+#sendmsg{
+	border: 1px solid #fffcf5;
+    border-radius: 10px;
+    background: #02e700;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 300px;
+}

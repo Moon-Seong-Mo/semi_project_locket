@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="SYSTEM" directorySegmentName="seg_0" id="BE77A888-9594-4537-EE98-B937267103E2">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:34 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

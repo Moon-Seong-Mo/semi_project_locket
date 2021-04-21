@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A37D4C54-8678-0C31-54A3-4B418D4A8EE5" containerWithKeyObject="3EA34441-0446-A311-8FED-2D6691E69187" localFKIndex="AF95043E-AE9B-6935-279D-8EEAE2A39518" name="MM_SID_FK">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>41FC564E-71B7-F5F9-14EF-7006CDB16AEA</importedID>
+<referredTableLongName>LOCKET.MEMBER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C80C6264-4ADC-047E-B8BA-C2C2368874FB</referredTableID>
+<keyObject>A5C164DC-7123-144D-BF0F-EFC343B3B4D1</keyObject>
+<referredKeyID>A5C164DC-7123-144D-BF0F-EFC343B3B4D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MEMBER_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

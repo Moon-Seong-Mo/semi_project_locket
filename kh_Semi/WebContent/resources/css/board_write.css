@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+   font-family: 'Noto Sans KR', sans-serif;
+}
+
+#content {
+	text-align: center;
+	padding: 20px;
+	width: 82%;
+}
+
+#filetext {
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 50px;
+	color: gray;
+}
+
+textarea[name=content] {
+	width: 90%;
+	min-height: 600px;
+	resize: none;
+	border: 2px solid black;
+}
+
+input[name=title] {
+	width: 90%;
+	height:40px;
+}
+

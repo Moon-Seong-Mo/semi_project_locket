@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#wrap {
+	width: 500px;
+	border: 1px solid white;
+	margin-left: 150px;
+	margin-bottom: 100px;
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+}
+
+table tr {
+	height: 75px;
+}
+
+table td {
+	padding: 5px;
+}
+
+.item {
+	width: 80%;
+	background: lightgray;
+	font-weight: bold;
+	text-align: center;
+}
+
+tr:last-child {
+	text-align: center;
+}
+
+label[id*=Result] {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+table input[type=text] {
+	width: 100%;
+}

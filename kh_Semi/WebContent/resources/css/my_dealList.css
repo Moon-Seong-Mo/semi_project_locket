@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#content>h1{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 35px;
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+#okay, #refuse, #cancel{
+	border: 1px solid #fffcf5;
+	border-radius: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	outline: none;
+}
+
+#okay {
+	background: #0099ff;
+	margin-right: 20px;
+}
+
+#refuse, #cancel {
+	background: gray;
+}
+
+.title{
+	cursor: pointer;
+}
+
+#dealTable{
+	width : 82%; 
+	background : #fffcf5;
+}
+
+#dealTable th,td{
+	height:30px;
+	text-align:center;
+	
+}
+#dealTable th{
+	background: #ffb84d;
+}
+
+.pagingArea {
+	width: 100%;
+	margin-top: 20px;
+}
+#mm form {
+	display: inline-block;
+}
+
+#mm {
+	float: right;
+	margin-right: 10%;
+}
+
+.pagingArea {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.pagingArea button {
+	padding: 5px 10px;
+	border: 1px solid #D5D5D5;
+	border-radius: 2px;
+	font-size: 12px;
+	background-color: rgba(245, 245, 245, 245);
+}
+
+#choosen {
+	background: #FFD8D8;
+}
+
+table#tom-table {
+    font-size: 14px;
+    text-align: center;
+}
+

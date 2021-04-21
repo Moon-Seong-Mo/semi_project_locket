@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#tom {
+	text-align: center;
+	margin-left: 30px;
+}
+
+#tom div {
+	margin-bottom: 10px;
+}
+
+#tom-table, tr {
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	border-collapse: collapse;
+}
+
+#table-head {
+/* 	background-color: lightgray; */
+}
+
+#tom-table th, #tom-table td {
+	padding: 5px;
+}
+
+.animation-init {
+  opacity: 0;
+  padding-top: 1em;
+}
+
+.animation-fade {
+  opacity: 1;
+  padding-top: 0;
+  transition: all 1s;
+}
+
+table#tom-table {
+    font-size: 14px;
+    text-align: center;
+}

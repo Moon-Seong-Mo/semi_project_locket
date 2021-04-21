@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+   font-family: 'Noto Sans KR', sans-serif;
+   background: #fffcf5;
+}
+
+#content>h1{   
+   font-size: 35px;
+   margin-left: 50px;
+   font-weight: bold;
+}
+
+#buyingProduct {
+   font-weight: bold;
+   font-size: 17px;
+   margin-left: 100px;
+   outline: none;
+   
+}
+
+#buyingProduct input[type="text"] {
+   border: 1px solid gray;
+   font-size: 15px;
+}
+
+.btns {
+/*    margin-right: 10px; */
+}
+
+.btns input{
+   width: 100px;
+   height: 40px;
+   border: 1px solid #fffcf5;
+   border-radius: 10px;
+   font-size: 17px;
+   font-weight: bold;
+   align: center;
+   margin: 10px;
+   color: white;
+   outline: none;
+}
+
+#okayBtn {
+   background: orange;
+}
+
+#cancelBtn {
+   background: gray;
+   margin-left: 30px;
+}

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+#nav {
+   float: left;
+   width: 18%;
+   font-family: 'Noto Sans KR', sans-serif;
+   background: #fffcf5;
+}
+
+#nav div {
+   display: inline-block;
+   margin-top: 20px;
+}
+
+#menu-area {
+   margin-bottom: 25px;
+   text-align: center;
+}
+
+.out-menu {
+   margin-top: 10px;
+   padding-left: 20px; 
+}
+
+/*아이콘 부분 */
+.out-menu label {
+   margin-right: 16px;
+      color: #df7d35;
+      font-weight: bold;
+      font-size: 25px;
+      cursor: pointer;
+}
+
+.out-menu div {
+   margin-top: 10px;
+   background: #fffcf5;
+   padding-left: 10px 0 10px 0;
+   width: 150px;
+   text-align: center;
+   font-size: 30px;
+   color: #df7d35;
+   font-weight: bold;
+}
+
+.out-menu li {
+   list-style: none;
+   margin-top: 10px;
+   font-size: 15px;
+}
+
+.out-menu button {
+   border: 1px solid #fffcf5;
+}
+
+.out-menu li:hover, .menuBtn {
+   cursor: pointer;
+}
+
+.out-menu li {
+   display: none;
+   font-size: 20px;
+   font-weight: bold;
+}

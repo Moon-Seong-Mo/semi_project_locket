@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+	background: #fffcf5;
+}
+
+#deli {
+	font-size: 20px;
+	width: 200px;
+}
+
+table {
+	float: center;
+}
+
+.tax {
+	float: right;
+	margin-right: 10px;
+	font-size: 20px;
+}
+button {
+	background-color: orange;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid orange;
+	
+}
+#cancelBtn {
+	background-color: orange;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid orange;
+	
+}

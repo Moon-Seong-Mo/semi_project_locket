@@ -1,0 +1,106 @@
+
+10월 14, 2020 24:08:10.29 NEW SESSION
+10월 14, 2020 24:08:10.29 [1014/000810.286:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 14, 2020 14:24:04.15 NEW SESSION
+10월 14, 2020 14:24:04.16 [1014/142404.157:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 17, 2020 07:10:47.91 NEW SESSION
+10월 17, 2020 07:10:47.91 [1017/071047.907:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 17, 2020 07:35:29.14 [1017/073529.145:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 17, 2020 07:58:14.46 NEW SESSION
+10월 17, 2020 07:58:14.46 [1017/075814.456:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 17, 2020 10:47:22.79 [2868:1608:1017/104722.792:ERROR:socket_stream.cc(219)] Closing stream with result -2
+10월 17, 2020 13:03:29.73 [2868:1608:1017/130329.734:ERROR:socket_stream.cc(219)] Closing stream with result -2
+10월 17, 2020 13:03:29.74 [2868:1608:1017/130329.734:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+10월 17, 2020 14:07:20.95 [1017/140720.956:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 19, 2020 24:35:30.20 NEW SESSION
+10월 19, 2020 24:35:30.20 [1019/003530.203:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 19, 2020 21:53:35.55 NEW SESSION
+10월 19, 2020 21:53:35.55 [1019/215335.554:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 22, 2020 13:11:37.91 NEW SESSION
+10월 22, 2020 13:11:37.91 [1022/131137.912:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 22, 2020 14:58:07.19 [1022/145807.174:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 25, 2020 05:15:55.07 NEW SESSION
+10월 25, 2020 05:15:55.07 [1025/051555.070:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 25, 2020 22:41:38.68 NEW SESSION
+10월 25, 2020 22:41:38.68 [1025/224138.682:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 26, 2020 17:24:58.90 NEW SESSION
+10월 26, 2020 17:24:58.90 [1026/172458.899:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 27, 2020 24:33:53.53 [7240:11600:1027/003353.530:ERROR:socket_stream.cc(219)] Closing stream with result -2
+10월 27, 2020 24:45:16.89 [7240:11600:1027/004516.890:ERROR:socket_stream.cc(219)] Closing stream with result -2
+10월 27, 2020 01:46:40.09 [7240:11600:1027/014640.092:ERROR:socket_stream.cc(219)] Closing stream with result -2
+10월 27, 2020 04:46:42.22 [7240:11600:1027/044642.220:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+10월 27, 2020 15:28:47.09 NEW SESSION
+10월 27, 2020 15:28:47.09 [1027/152847.085:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 27, 2020 17:58:36.81 [16908:13444:1027/175836.816:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.559 s for first_image_paint 0.55 s
+10월 27, 2020 17:58:37.82 [16908:13444:1027/175837.829:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.559 s for first_image_paint 0.55 s
+10월 27, 2020 17:58:41.13 [16908:13444:1027/175841.131:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.559 s for first_image_paint 0.55 s
+10월 27, 2020 17:59:38.35 [16908:13444:1027/175938.353:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.559 s for first_image_paint 0.55 s
+
+10월 28, 2020 16:13:22.62 NEW SESSION
+10월 28, 2020 16:13:22.62 [1028/161322.622:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 28, 2020 17:54:31.37 [1028/175431.368:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 28, 2020 18:24:13.69 NEW SESSION
+10월 28, 2020 18:24:13.69 [1028/182413.687:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 28, 2020 21:16:45.01 [1028/211645.016:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 29, 2020 01:20:04.82 [15276:15056:1029/012004.825:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+10월 29, 2020 01:56:20.45 NEW SESSION
+10월 29, 2020 01:56:20.46 [1029/015620.454:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 29, 2020 02:16:17.71 [16532:18236:1029/021617.715:ERROR:mcs_client.cc(755)] Received close command, resetting connection.
+
+10월 29, 2020 14:42:32.63 NEW SESSION
+10월 29, 2020 14:42:32.63 [1029/144232.620:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+10월 29, 2020 15:29:07.52 NEW SESSION
+10월 29, 2020 15:29:07.53 [1029/152907.525:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 29, 2020 17:59:19.73 [1029/175919.736:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 29, 2020 20:30:20.47 [14116:9940:1029/203020.471:ERROR:socket_stream.cc(219)] Closing stream with result -2
+10월 29, 2020 20:39:28.64 [14116:9940:1029/203928.645:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+10월 30, 2020 13:37:04.27 NEW SESSION
+10월 30, 2020 13:37:04.27 [1030/133704.265:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+10월 30, 2020 19:55:08.02 [6280:18688:1030/195508.020:ERROR:mcs_client.cc(755)] Received close command, resetting connection.
+
+10월 31, 2020 24:42:31.57 NEW SESSION
+10월 31, 2020 24:42:31.57 [1031/004231.565:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+11월 02, 2020 01:35:41.78 NEW SESSION
+11월 02, 2020 01:35:41.78 [1102/013541.775:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+11월 04, 2020 24:23:52.78 NEW SESSION
+11월 04, 2020 24:23:52.78 [1104/002352.781:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+11월 04, 2020 15:33:44.92 NEW SESSION
+11월 04, 2020 15:33:44.92 [1104/153344.908:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+11월 04, 2020 15:45:52.09 [9868:7148:1104/154552.091:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+11월 06, 2020 02:34:38.78 NEW SESSION
+11월 06, 2020 02:34:38.78 [1106/023438.776:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+11월 07, 2020 19:52:35.85 NEW SESSION
+11월 07, 2020 19:52:35.85 [1107/195235.847:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+11월 08, 2020 22:50:29.21 NEW SESSION
+11월 08, 2020 22:50:29.21 [1108/225029.213:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+
+11월 10, 2020 15:51:22.89 NEW SESSION
+11월 10, 2020 15:51:22.89 [1110/155122.881:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+11월 10, 2020 18:18:48.75 [8816:8728:1110/181848.752:ERROR:socket_stream.cc(219)] Closing stream with result -2
+11월 10, 2020 19:25:49.70 [8816:8728:1110/192549.705:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+11월 10, 2020 20:34:45.92 [8816:8728:1110/203445.919:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+3월 17, 2021 15:21:32.93 NEW SESSION
+3월 17, 2021 15:21:32.93 [9092:12324:0317/152132.089:ERROR:device_event_log_impl.cc(214)] [15:21:32.089] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 17, 2021 15:21:32.116 [9092:12324:0317/152132.091:ERROR:device_event_log_impl.cc(214)] [15:21:32.090] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+3월 17, 2021 15:21:32.134 [9092:12324:0317/152132.092:ERROR:device_event_log_impl.cc(214)] [15:21:32.091] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)

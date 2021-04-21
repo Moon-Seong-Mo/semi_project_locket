@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9FC9239-6783-9690-52F8-538384780025" schemaObject="5B0D4C91-3443-5659-C6FB-27D404CE0B20" name="MEMBER_ACTIVITY">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>6E2938B6-6A5F-FE55-B277-14C9B12AFA8A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEMBER_ID" id="B8C8C1C8-A125-A3A0-3731-D4DE6CCE0E52">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>FBB8A650-4538-6401-8583-C8FACE54C132</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7290FC1-F465-F7E7-1062-C46388898B60" referredColumn="EEAC1B0A-8828-6779-5B0C-1FEDF4819CD1"/>
+</associations>
+</Column>
+<Column name="DEAL_COUNT" id="29A76671-CB89-274F-5F66-A69A643C9FB3">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>A31F85D0-E377-70D8-89D6-19910D8481E0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPORT_COUNT" id="87E12002-5EBF-F4B1-D399-58DD00DD9BB3">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>AE737F68-4DF4-A47C-1F74-3007F3751C06</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB5E3163-AD1A-DA00-7DA3-1432EE81D0EB" schemaObject="5B0D4C91-3443-5659-C6FB-27D404CE0B20" name="MEMBER_ACTIVITY_PK">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>961D14E3-24D0-D3C3-88C5-220B61F967A9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8C8C1C8-A125-A3A0-3731-D4DE6CCE0E52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68EDBC15-4895-1AD5-C0FB-ADCA0A01E230" name="MA_MID_FK">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8C8C1C8-A125-A3A0-3731-D4DE6CCE0E52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

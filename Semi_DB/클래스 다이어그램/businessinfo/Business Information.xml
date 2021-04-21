@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="42318EFC-A760-2928-1746-0275D3A5A917">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:31 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

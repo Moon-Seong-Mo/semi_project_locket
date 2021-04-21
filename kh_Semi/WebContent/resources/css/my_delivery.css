@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#content>h1{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 35px;
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+
+table {
+	border-collapse: collapse;
+}
+
+caption {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.delivery_list_wrap {
+	width: 100%;
+	padding: 50px;
+}
+
+.delivery_list {
+	width: 100%;
+	border-top: 2px solid navy;
+}
+
+.delivery_list tr {
+	border-bottom: 1px solid #ccc;
+}
+
+.delivery_list th, .delivery_list td {
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.board_list thead * {
+	text-align: center;
+}
+
+.board_list tbody * {
+	text-align: center;
+}
+
+
+#dTable input[type="text"]{
+	font-size: 3px;
+	color: #fffcf5;
+	width: 3px;
+	height: 3px;
+	border: 1px solid #fffcf5;
+}
+
+
+#choosen {
+	background: #FFD8D8;
+}
+
+#deleteBtn{
+	margin-left: 850px;
+	background-color: gray;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+
+#obj {
+	background-color: orange;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid orange;
+	width: 100px;
+	height: 40px;
+	margin-left: 85%;
+}

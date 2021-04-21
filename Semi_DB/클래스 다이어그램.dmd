@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="클래스 다이어그램" id="63B580A0-0C5B-5B3E-F782-1E1B12DA976B" version="3.5">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:30 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>63B580A0-0C5B-5B3E-F782-1E1B12DA976B</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C956F600-4321-1323-BDA9-D56A708D80E5">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

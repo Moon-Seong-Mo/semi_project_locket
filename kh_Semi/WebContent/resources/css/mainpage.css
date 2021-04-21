@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+	background: #fffcf5;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#item-list {
+	display: block;
+	width: 100%;
+}
+
+.item {
+	display: inline-block;
+	margin: 20px;
+	margin-top: 30px;
+}
+
+.item * {
+	display: block;
+	text-align: center;
+}
+
+.item img {
+	width: 120px;
+	height: 120px;
+	border: none;
+}
+
+#welcome {
+	height: 500px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#welcome img{
+	height: 500px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#Monthitle{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 20px;
+	margin-left: 30px;
+	font-weight: bold;
+	color: gray;
+}
+
+#mainpage1 {
+	border: none;
+	border-bottom: none;
+	width: 100%; 
+	height: 250px; 
+	margin-left: 40px; 
+	margin-right: 70px; 
+	float: left; 
+}
+
+#mainpage2 {
+	border: none; 
+	width: 420px; 
+	height: 250px; 
+	margin-right: 0px; 
+	float: left;
+}
+
+.rolling_box {
+	width: 220px;
+	height: 40px;
+	text-align: center;
+	border: 1px solid #fffcf5;
+	margin-left: 15%;
+	margin-top: 20%;
+}
+
+.rolling_box ul {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	list-style: none;
+}
+
+.rolling_box ul li {
+	width: 100%;
+	height: 100%;
+	transition: .5s;
+	position: absolute;
+	transition: top .75s;
+	top: 100%;
+	z-index: 1;
+	background-color: #ffffff;
+}
+
+.card_sliding {
+	top: 0 !important;
+	z-index: 100 !important;
+}
+
+.card_sliding_after {
+	top: -100% !important;
+	z-index: 10 !important;
+}
+
+.rolling_box ul li p {
+	font-size: 35px;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.before_slide {
+	transform: translateY(100%);
+}
+
+.after_slide {
+	transform: translateY(0);
+}
+
+#Monthimg{
+	margin-left: 30px;
+}
+
+#Monthimg img{
+	width: 180px;
+    height: 180px;
+}
+
+#tom-table th {
+    text-align: center;
+}

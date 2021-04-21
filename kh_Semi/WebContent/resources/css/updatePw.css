@@ -1,0 +1,26 @@
+@charset "UTF-8";
+	* {
+	background: #fffcf5;
+	 font-family: 'Noto Sans KR', sans-serif;
+}
+.btns input , .btn{
+	background: #eaeae1;
+	border-radius: 10px;
+	border: 1px solid #eaeae1;
+	font-weight: bold;
+	width: 100px;
+	height: 40px;
+	margin-right: 30px;
+}
+
+#updatePwForm label {
+	font-weight: bold;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+#font{
+	font-size: 20px;
+	font-weight:bold;
+	margin: 50px;
+}

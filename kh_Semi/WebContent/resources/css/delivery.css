@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+	#title {
+		font-size: 50px;
+	}
+	
+	#delivery-table, td{
+		border-top: 1px solid lightgray;
+		border-bottom: 1px solid lightgray;
+		border-collapse: collapse;
+		font-size: 20px;
+		width: 900px;
+		height: 60px;
+		text-align: center;
+	}
+	#delivert-table {
+		
+	}
+	#delivery-table-top {
+		background-color: lightgray;
+		height: 70px;
+	}
+	
+	#checkbox {
+		width: 20px;
+		height: 20px;
+		margin: 10px;
+	}
+	
+	#btn1 {
+		float: right;
+		margin: 10px;
+		font-size: 20px;
+		background: lightgray;
+		color: black;
+	}
+	#btn2 {
+		float: right;
+		margin: 10px;
+		font-size: 20px;
+		background: red;
+		color: white;
+	}

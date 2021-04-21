@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+* {
+   font-family: 'Noto Sans KR', sans-serif;
+}
+
+#content>h1{   
+   font-size: 35px;
+   margin-left: 50px;
+   font-weight: bold;
+}
+
+#star{
+   font-weight: bold;
+   color: orange;
+   font-size: 25px;
+}
+
+.productForm * {
+   margin-right: 10px;
+   height: 30px;
+   border: 3px solid gray;
+}
+
+#so{
+   margin-left: 70px;   
+}
+
+.productForm button {
+   margin-left: 0px;
+   background: #df7d35;
+   font-weight: bold;
+   color: white;
+   border: 1px solid #fffcf5;
+   width: 50px;
+}
+
+
+.none{
+   height: 600px;
+   font-size: 30px;
+   font-weight: bold;
+   padding: 200px;
+   padding-left: 200px;
+   padding-top: 100px;
+   text-align: center;
+}
+
+#goRegister{
+   cursor: pointer;
+   border: 1px solid #fffcf5;
+   color: #df7d35;
+   font-size: 35px;
+   font-weight: bold;
+}
+
+#golist {
+    cursor: pointer;
+    border: 1px solid #fffcf5;
+    color: #0080ff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#item-list {
+   display: block;
+}
+
+.item {
+   display: inline-block;
+   margin: 40px;
+   margin-top: 30px;
+   cursor: pointer;
+}
+
+.item * {
+   display: block;
+   text-align: center;
+}
+
+.item img {
+   width: 180px;
+   height: 180px;
+   margin-right: 20px;
+   margin-left: 30px;
+   border: 1px solid #fffcf5;
+   border-radius: 15px;
+}
+
+.item span{
+   font-weight: bold;
+   color: black;
+   font-size: 20px;
+}
+
+.item p {
+   font-weight: bold;
+   font-size: 18px;
+}
+
+.catesearch select[name^=location]:nth-child(1) {
+	margin-left: 70px;
+}
+
+.catesearch select[name^=location] {
+    border: 3px solid gray;
+    height: 50px;
+    font-size: 18px;
+}
+
+.catesearch #categorySearch {
+    margin-left: 70px;
+    border: 3px solid gray;
+    height: 50px;
+    font-size: 18px;
+}
+
+.catesearch button {
+   margin-left: 0px;
+   background: #df7d35;
+   font-weight: bold;
+   color: white;
+   border: 1px solid #fffcf5;
+   width: 60px;
+    height: 50px;
+    font-size: 22px;
+}
+
+.paging {
+   margin-top: 10px;
+   text-align: center;
+}
+
+.paging button {
+   padding: 5px 10px;
+   border: 1px solid #D5D5D5;
+   border-radius: 2px;
+   font-size: 12px;
+   background-color: rgba(245, 245, 245, 245);
+}
+
+#choosen {
+   background: #FFD8D8;
+}
+
+#so, #word, #searchWord {
+	margin-right: 10px;
+	height: 30px;
+	border: 3px solid gray;
+}
+
+#searchWord {
+	margin-left: 0px;
+	background: #df7d35;
+	font-weight: bold;
+	color: white;
+	border: 1px solid #fffcf5;
+	width: 50px;
+}
+
+.itemLocation {
+	font-size: 15px;
+}

@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+*{
+   background : #fffcf5;
+   font-family: 'Noto Sans KR', sans-serif;
+}
+.outer {
+   width: 90%;
+   border: 1px solid lightgray;
+   padding: 25px;
+}
+
+.reportBtn {
+   float: right;
+   color: red;
+   font-weight: bold;
+}
+
+#menuname {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 211, 0);
+    padding-left: 10px;
+}
+
+#productTitle {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#productTitle2 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#productTitle2 label{
+   color:red;
+}
+
+#price{
+   font-size:30px;
+   font-weight: bold;
+}
+
+#price label{
+   font-size:30px;
+   font-weight: bold;
+}
+
+#etc {
+   font-weight: bold;
+}
+
+#etc label, #explainArea h4, #cc, #before1{
+   color : gray;
+   font-size : 20px;
+   margin-right: 10px;
+   font-weight: bold;
+}
+
+#nickName {
+   font-weight: bold;
+   font-size: 17px;
+}
+
+#nickName * {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+#ImgArea{
+   width : 400px;
+   height : 400px;
+   float:left;
+   text-align:center;
+}
+
+.detail{
+   text-align:left;
+   width: 100%; 
+   padding: 10px; 
+/*    background: rgba(255, 255, 255, 0.4); */
+}
+ 
+#titleImgArea{
+/*    width:500px;  */
+   height:300px; 
+   margin-left:auto; 
+   margin-right:auto;
+}
+   
+#titleImg{
+   height:300px;
+   align:top;
+   float:left;
+   max-width: 400px;
+   max-height: 400px;
+}
+   
+.detailImg{
+   width:auto; 
+   height:auto;
+   max-width:500px;
+   max-height:700px;
+}
+
+#thumbTable{
+   margin: auto;
+}
+   
+.comment_area {
+   position: relative;
+   width: 100%;
+   padding: 10px;
+   vertical-align: middle;
+}
+
+.comment_area>* {
+   display: inline-block;
+}
+
+.comment_date {
+   color: gray;
+   font-size: 12px;
+}
+
+.reportComment {
+   position: absolute;
+   right: 10px;
+   top: 10px;
+}
+
+.commentWrite {
+   position: relative;   
+   width: 100%;
+   height: 100px;
+   border: 1px solid lightgray;
+   margin-top :25px;
+}
+
+
+.commentWrite textarea {
+   width: 90%;
+   resize: none;
+   border: none;
+   outline: none;
+   overflow: visible;
+}
+
+#commentInfo {
+   margin-left: 15px;
+   margin-top: 10px;
+}
+
+.commentWrite form {
+   text-align: center;
+}
+
+#coco {
+   font-weight: bold;
+   font-size: 15px;
+}
+
+#warning{
+   margin-bottom : 50px;
+   font-weight:500;
+}
+
+#simpleExplain{
+   display: inline-block;
+   margin-left: 30px;
+}
+
+#explainArea{
+   font-weight: bold;
+   font-size: 15px;
+}
+
+#sendmsg {
+   border: 1px solid #fffcf5;
+   border-radius: 10px;
+   background: #02e700;
+   color: white;
+   font-size: 15px;
+   margin-left: 10px;
+   margin-right: 300px;
+}
+
+#cSubmit, #cDelete, #pUpdate, #pDelete {
+   border: 1px solid #fffcf5;
+   border-radius: 7px;
+   color: white;
+   font-weight: bold;
+   outline: none;
+   padding: 5px;
+}
+
+
+.comment_area input{
+   border: 1px solid #fffcf5;
+   outline: none;
+   color: red;
+}
+
+#cSubmit {
+   background: #0099ff;
+}
+
+#pUpdate {
+   background: orange;
+}
+
+#toList {
+   border: 1px solid #fffcf5;
+   border-radius: 7px;
+   color: black;
+   font-weight: bold;
+   font-size: 20px;
+   padding: 5px;
+   margin-top: 20px;
+   margin-left: 45%;
+   outline: none;
+}
+
+.wish{
+   margin-left: 90%;
+}
+
+#before2, #after {
+   border: 1px solid #fffcf5;
+   color: orangered;
+   font-size: 30px;
+   outline: none;
+}
+
+#profile {
+   width: 60px;
+    height: 60px; 
+    border-radius: 70%;
+    overflow: hidden;
+}
+
+#profile img {
+   width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+
+#obj {
+   background-color: orange;
+   color: white;
+   font-size: large;
+   font-weight: bold;
+   border-radius: 5px;
+   border: 1px solid orange;
+   width: 100px;
+   height: 40px;
+   margin-left: 0%;
+   outline: none;
+}
+
+#removeCheck {
+   background-color: orangered;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+   border-radius: 5px;
+   border: 1px solid orangered;
+   width: 100px;
+   height: 40px;
+   margin-left: 0%;
+   outline: none;
+}
+
+#day_view_c {
+   float: right;
+   margin-top: 20px;
+}

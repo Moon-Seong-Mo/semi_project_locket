@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#content>h1{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 35px;
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+#filetext {
+	float: left;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 0;
+	color: gray;
+	min-height: 20px;
+
+}
+
+
+textarea[name=content] {
+	width: 90%;
+	min-height: 600px;
+	resize: none;
+	
+}
+
+input[name=title] {
+	width: 90%;
+	height:40px;
+	
+}
+
+#setFile{
+	margin-left: 90px;
+}
+
+#file{
+	float:left;
+	position:relative;
+}
+
+
+#form1 {
+	position:relative;
+	margin-left :50px;
+}
+
+#obj {
+	background-color: orange;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid orange;
+	width: 100px;
+	height: 40px;
+	margin-left: 79%;
+}
+
+#startdate{
+	position:relative;
+	margin-left: 179px;
+}
+
+#list{
+	background-color: orange;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid orange;
+	width: 100px;
+	height: 40px;
+	margin-left: 79%;
+}
+
+#boardContent, #title1{
+	border: 2px solid black;
+} 

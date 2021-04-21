@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MEMBER" directorySegmentName="seg_0" id="C80C6264-4ADC-047E-B8BA-C2C2368874FB">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<schemaObject>5B0D4C91-3443-5659-C6FB-27D404CE0B20</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A23B3183-76D4-DC02-2D49-870D289B8DC4</segment>
+<tableSpace>BE77A888-9594-4537-EE98-B937267103E2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MEMBER_PW" id="07FFA9CA-49CD-A568-2AEA-43A4968D9B20">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INCHECK" id="1C85E565-58B7-2C5B-D0F6-66555F3B1364">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<defaultValue>&apos;Y&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="RANK_CODE" id="2E0AF61C-305D-0E1A-3C87-71EFB5AC1D54">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="JOIN_DATE" id="33007E82-82FC-1199-7D60-64409909A7F0">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GENDER" id="366A7AD6-3A1F-6B11-83C9-B34D226BB158">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNT_NUMBER" id="3BB7A848-72D8-3258-F867-3AFC63C9A23F">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAYMENT_PW" id="3DCF64D7-77CF-A959-53E7-B73A6CCB0EE9">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="M_DATE" id="40CAB117-3C43-5B99-E893-C5CE319F0DAF">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="S_CHECK" id="7B497AB1-7B84-6C40-7738-11797D31C4C1">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<defaultValue>&apos;N&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="P_IMAGE" id="8447418B-5952-C91C-D84C-CB7EDEFF82E6">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMBERNAME" id="892BCF65-485B-F04C-B591-F5A80792B7FA">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="B48B7BA0-71A4-9074-1DB7-1E497A226091">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="BB2049F7-B3E4-4B56-D8E6-C0C2FB37C2D9">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="M_CHECK" id="C766C159-056C-9DE8-DB78-E95B57E4CFB9">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PW_HINT_ANS" id="D870A064-9B7E-5829-512C-84AA1736EE4E">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PW_HINT" id="EAC06391-F07F-7B75-6072-2F622662C577">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BANK" id="EB1A7A66-04EB-1797-06E5-327148A59133">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMBER_ID" id="EEAC1B0A-8828-6779-5B0C-1FEDF4819CD1">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="M_RC_FK" id="645DE6DE-F308-7168-A43F-8C682FC39C8A">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MEMBER_PK" id="A5C164DC-7123-144D-BF0F-EFC343B3B4D1">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<schemaObject>5B0D4C91-3443-5659-C6FB-27D404CE0B20</schemaObject>
+<segment>61D73139-5124-347D-5F91-A8CB39A5DE2A</segment>
+<tableSpace>BE77A888-9594-4537-EE98-B937267103E2</tableSpace>
+<indexSegment>61D73139-5124-347D-5F91-A8CB39A5DE2A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="MEMBER_MEMBERNAME_UN" id="9AA346BE-C729-F0E4-7D9B-26F58624C769">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<schemaObject>5B0D4C91-3443-5659-C6FB-27D404CE0B20</schemaObject>
+<segment>61D73139-5124-347D-5F91-A8CB39A5DE2A</segment>
+<tableSpace>BE77A888-9594-4537-EE98-B937267103E2</tableSpace>
+<indexSegment>61D73139-5124-347D-5F91-A8CB39A5DE2A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

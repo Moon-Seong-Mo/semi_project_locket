@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+	*{
+		background: #fffcf5;
+}
+	#send{
+		background-color: orange;
+	}
+	#cancel{
+		background-color:gray;
+	}
+	#btn button{
+		width: 100px;
+    	height: 40px;
+   	    border: 1px solid #fffcf5;
+    	border-radius: 10px;
+    	font-size: 17px;
+    	font-weight: bold;
+    	align: center;
+    	margin: 10px;
+    	color: white;
+    	outline: none;
+	}

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+   font-family: 'Noto Sans KR', sans-serif;
+}
+
+#msg_d_title{
+	display: inline-block;
+	margin-left: 195px;
+	align: center;
+}
+
+.outer{
+	width: 975px; height: 500px;
+	margin-left: auto; margin-right: auto; margin-top: 50px;
+}
+
+.tableArea {
+	width:450px; height:350px; margin-left:auto; margin-right:auto;
+}
+
+#msg_content tbodx tr td:nth-child(4){
+	float: right;
+}
+
+#cancelBtn{
+	display: inline-block;
+    background:lightgray;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: 1px solid orange;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    font-size: large;
+    left: 30px;
+}	
+	
+
+	

@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* {
+   font-family: 'Noto Sans KR', sans-serif;
+}
+#delete{
+    left: 775px;
+    bottom: 20px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    font-size: large;
+}
+
+#sendmessage{ 
+    display: inline-block;
+    left: 655px;
+    top: 20px;
+    background:lightgray;
+     background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: 1px solid orange;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    font-size: large;
+}
+.board_list_wrap {
+	width: 100%;
+	padding: 50px;
+}
+
+.board_list {
+	width: 100%;
+	border-top: 2px solid navy;
+}
+
+.board_list tr {
+	border-bottom: 1px solid #ccc;
+}
+
+.board_list th, .board_list td {
+	padding: 10px;
+	font-size: 15px;
+}
+
+.board_list thead * {
+	text-align: center;
+}
+
+.board_list tbody * {
+	text-align: center;
+}
+
+
+.board_list tbody tr td:nth-child(3):hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+.pagingArea {
+   width: 100%;
+   margin-top: 20px;
+}
+
+
+.pagingArea button {
+	padding: 5px 10px;
+	border: 1px solid #D5D5D5;
+	border-radius: 2px;
+	font-size: 12px;
+	background-color: rgba(245, 245, 245, 245);
+}
+
+#choosen {
+	background: #FFD8D8;
+}
+
+
+#content h1{
+   font-family: 'Noto Sans KR', sans-serif;
+   font-size: 35px;
+   margin-left: 50px;
+   font-weight: bold;
+}
+
+table#tom-table {
+    font-size: 14px;
+    text-align: center;
+}

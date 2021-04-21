@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+   font-family: 'Noto Sans KR', sans-serif;
+}
+
+#content>h1{
+	font-size: 35px;
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+#editForm select {
+	height: 25px;
+}
+
+#editForm input {
+	height: 30px;
+}
+
+#editForm button {
+	background: #eaeae1;
+	border-radius: 10px;
+	border: 1px solid #eaeae1;
+	font-weight: bold;
+	width: 120px;
+	height: 40px;
+}
+
+#checkNickname {
+	background: #eaeae1;
+	border-radius: 10px;
+	border: 1px solid #eaeae1;
+	font-weight: bold;
+	width: 80px;
+	height: 30px;
+	margin-left: 20px;
+}
+
+#editTable {
+	width: 800px;
+	height: 600px;
+}
+
+#editTable * {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+#editForm input[type=submit] {
+	margin-top: 25px;
+	margin-bottom: 25px;	
+	width: 250px;
+	height: 50px;
+	background: #eaeae1;
+	border-radius: 10px;
+	border: 1px solid #eaeae1;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+#editTable th {
+	background-color: #eaeae1;
+	font-size: 15px;
+}
+
+#editTable, #editTable tr {
+	border-top: 1px solid #D4D4D4;
+	border-bottom: 1px solid #D4D4D4;
+	border-collapse: collapse;
+}

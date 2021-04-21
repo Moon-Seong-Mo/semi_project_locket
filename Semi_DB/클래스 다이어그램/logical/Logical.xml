@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F36251F8-30C1-D2F3-E79C-B2D29BA6E10C" mainViewID="987869A5-4C1C-CAEE-9196-B5409B4A8D90">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:30 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

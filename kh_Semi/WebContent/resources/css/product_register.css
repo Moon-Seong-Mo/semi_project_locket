@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+	background: #fffcf5;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*중고 물품등록*/
+#content-area h1{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 35px;
+	margin-left: 50px;
+	margin-right : 15px;
+	font-weight: bold;
+}
+
+#insertArea {
+	background-color: #fffcf5;
+	border: 1px solid red;
+	
+}
+
+#insertThumbTable tr {
+   border: 1px solid transparent;
+   margin-top: 50px;
+}
+
+#insertThumbTable {
+   font-size: 18px;
+}
+
+table input[type="text"] {
+	border-radius: 5px;
+	outline:none;
+}
+
+table textarea{
+	width: 525px;
+}
+
+.underline {
+　border-color: red;
+}
+
+/*등록,취소버튼 */
+#obj {
+	background-color: orange;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid orange;
+	width: 100px;
+	height: 40px;
+	margin-left: 3%;
+}
+
+#cancelBtn {
+	background-color: gray;
+	color: white;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 1px solid gray;
+	width: 100px;
+	height: 40px;   
+	margin-left: 65%;
+}
+
+#fileArea {
+	display: none;
+}
+
+.btnArea{
+	margin-left: -210px;
+}

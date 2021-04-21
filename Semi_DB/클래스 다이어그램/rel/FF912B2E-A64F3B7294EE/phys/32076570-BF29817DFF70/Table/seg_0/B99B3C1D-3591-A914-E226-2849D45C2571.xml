@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BOARD" directorySegmentName="seg_0" id="B99B3C1D-3591-A914-E226-2849D45C2571">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<schemaObject>5B0D4C91-3443-5659-C6FB-27D404CE0B20</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A23B3183-76D4-DC02-2D49-870D289B8DC4</segment>
+<tableSpace>BE77A888-9594-4537-EE98-B937267103E2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BOARD_LEVEL" id="004096EC-0339-EAF4-714B-987E37E7DBA7">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="MEMBER_ID" id="1D1BE70F-F404-466C-BBEB-52072C3B2F70">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOARD_NUM" id="2E85725D-E905-A978-43E5-BE1485FF7607">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_DATE" id="73999EBB-B78B-151C-24FB-782208A0BC53">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODIFY_DATE" id="92E030A0-11A2-8776-2591-D56B62435BC3">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TITLE" id="AD007999-9636-E9BA-3941-8A156953F3E7">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VIEWS" id="CAEE0A4F-AFC9-974F-61A5-638316C7C23A">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="CB3F9B57-6996-7608-A544-C92CF4F32FA0">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<defaultValue>&apos;Y&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="BOARD_C" id="EAD16A3D-7075-DA15-4CC3-78C0E6D093EF">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="B_MID_FK" id="407E0D9C-48DC-AFF9-694E-16EA05B1BD12">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOARD_PK" id="4F8D835A-93A8-7018-786A-0D24A7C443E8">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<schemaObject>5B0D4C91-3443-5659-C6FB-27D404CE0B20</schemaObject>
+<segment>61D73139-5124-347D-5F91-A8CB39A5DE2A</segment>
+<tableSpace>BE77A888-9594-4537-EE98-B937267103E2</tableSpace>
+<indexSegment>61D73139-5124-347D-5F91-A8CB39A5DE2A</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

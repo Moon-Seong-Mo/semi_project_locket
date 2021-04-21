@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#content-area {
+	width: 100%;
+	min-height: 820px;
+}
+
+#content-area>div {
+	display: inline-block;
+	margin-top: 10px;
+}

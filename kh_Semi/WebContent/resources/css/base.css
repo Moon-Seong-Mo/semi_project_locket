@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+	margin: 0 auto;
+	background: #fffcf5;
+	user-select: none;
+}
+
+html, body {
+	width: 1200px;
+	height: 100%;
+}
+
+body {
+	border: 10px solid #fffcf5;
+}
+
+.wrap {
+	width: 1190px;
+	overflow: visible;
+}
+
+button, input[type="button"] {
+	outline: none;
+}

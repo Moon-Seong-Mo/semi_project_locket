@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="8FDB1942-F30F-BC6E-E6E9-B60079B9554F" name="LOCKET" visible="false"/>
+   <object objectType="sub_view" objectID="57EBFFE4-5411-9173-A654-DB492E367637" name="LOCKET - SubView_1" visible="false"/>
+   <object objectType="sub_view" objectID="671B5201-88BC-3D36-D0AD-D5944D1BB55C" name="LOCKET - SubView_2" visible="false"/>
+   <object objectType="sub_view" objectID="639BE883-4D25-DACE-203A-EE8BDB7ED5FE" name="LOCKET - SubView_3" visible="false"/>
+   <object objectType="sub_view" objectID="E8B94EF3-3DC0-ACD8-DBEC-CC76BD0A3DD5" name="LOCKET - SubView_4" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

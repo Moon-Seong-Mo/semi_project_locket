@@ -1,0 +1,107 @@
+@charset "UTF-8";
+* {
+   font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+#content {
+   padding: 20px;
+}
+
+#top-area {
+   background:  #eaeae1;
+   border-radius: 10px;
+   height: 60px;
+   padding-left: 35%;
+}
+
+#top-area label {
+   text-align: center;
+   margin-top: 20px;
+   background: #eaeae1; 
+   font-size: 20px;
+}
+
+
+#infoTitle{
+   color: gray;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+#info {
+   color: gray;
+   font-size: 20px;
+   margin-left: 10px;
+   margin-bottom: 15px;
+   font-weight: lighter;
+}
+
+#deal{
+   color: gray;
+   font-size: 30px;
+   margin-left: 10px;
+   margin-top:0px;
+   font-weight: bold;
+}
+
+#deal label {
+   color: gray;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+#line1{
+   width: 800px; 
+   margin: 0px;
+}
+
+#updateInfoBtn, #shippingMnagementBtn, #myDealBtn {
+   float: right;
+   background: #eaeae1;
+   border-radius: 10px;
+   border: 1px solid #eaeae1;
+   font-weight: bold;
+   width: 100px;
+   height: 40px;
+}
+
+#shippingMnagementBtn{
+   margin-left: 655px;
+   margin-top: 0px;
+}
+
+#bottom-area div {
+   float: left;
+   width: 250px;
+   height: 170px;
+   margin-top: 80px;
+   margin-right: 5px;
+   margin-left: 40px;
+   border: 3px solid #eaeae1;
+   border-radius: 10px;
+   background: #eaeae1;
+}
+
+#div1 {
+   padding: 50px;
+   cursor: pointer
+}
+
+#div1 span {
+/*    background: black; */
+   border: 1px solid #eaeae1;
+   font-weight: bold;
+   font-size: 20px;
+   color: gray;
+   background: #eaeae1;
+   margin-left: 40px;
+}
+
+#bottom-icon{
+   color: gray;
+   font-size: 40px;
+   font-weight: bold;
+   margin-left: 60px;
+   background: #eaeae1;   
+}

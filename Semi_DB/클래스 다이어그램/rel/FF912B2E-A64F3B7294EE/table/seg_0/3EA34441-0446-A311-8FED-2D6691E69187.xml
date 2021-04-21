@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3EA34441-0446-A311-8FED-2D6691E69187" schemaObject="5B0D4C91-3443-5659-C6FB-27D404CE0B20" name="MEMBER_MESSAGE">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>384D7D11-935D-E0A5-4952-2DC4D8F759B1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MESSAGE_NUM" id="98B486AE-9643-F3F6-A68D-E949144CB4CD">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>A248FEDC-F3A3-5187-8FFC-8DE9748218C2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBER_ID" id="243893F3-7EA3-2063-F44B-EF0088D01506">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>DA3A9C24-B38C-2A50-6918-2C77E362D7F6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A87AAC6-124C-A3B3-753F-35DB3E600366" referredColumn="EEAC1B0A-8828-6779-5B0C-1FEDF4819CD1"/>
+</associations>
+</Column>
+<Column name="SEND_ID" id="8DED7C6A-DA3F-9B5F-ED04-603623EBB5D2">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>6D93F009-BE1C-7B81-EA91-D160246D9F61</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A37D4C54-8678-0C31-54A3-4B418D4A8EE5" referredColumn="EEAC1B0A-8828-6779-5B0C-1FEDF4819CD1"/>
+</associations>
+</Column>
+<Column name="MESSAGE_C" id="97CC82CE-C622-E646-BA15-F0FB1B27B446">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>CC696D29-14A4-551E-5FAD-73535A11157C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEND_DATE" id="A28F02B4-8E24-5B7A-A57D-FB53F8413E96">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>74B2FA2E-FBAB-3789-F469-FA1B85B5B428</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59934AAC-34F2-7389-F448-584B1254580C" schemaObject="5B0D4C91-3443-5659-C6FB-27D404CE0B20" name="MEMBER_MESSAGE_PK">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<importedID>38199C4C-D964-2FC9-9959-BE17629DD7D4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98B486AE-9643-F3F6-A68D-E949144CB4CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B78146D8-2D4C-71B9-88A0-3DF608EFC1AB" name="MM_MID_FK">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="243893F3-7EA3-2063-F44B-EF0088D01506"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF95043E-AE9B-6935-279D-8EEAE2A39518" name="MM_SID_FK">
+<createdBy>tkdrm</createdBy>
+<createdTime>2020-11-05 09:12:57 UTC</createdTime>
+<ownerDesignName>클래스 다이어그램</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DED7C6A-DA3F-9B5F-ED04-603623EBB5D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

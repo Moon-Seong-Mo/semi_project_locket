@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+
+* {
+   font-family: 'Noto Sans KR', sans-serif;
+}
+
+#content>h1{   
+   font-size: 35px;
+   margin-left: 50px;
+   font-weight: bold;
+   font-family: 'Noto Sans KR', sans-serif;
+}
+
+#content hr{   
+    border: 3px solid #df7d35;
+    background: #df7d35;
+   width: 100%;
+}
+
+
+.product_list_wrap h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+/* 검색결과 없을 때 */
+.noneProduct{
+   width:100%;
+   font-size: 30px;
+   font-weight: bold;
+   padding: 200px;
+   padding-left: 200px;
+   padding-top: 100px;
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+.noneBoard{
+   width:100%;
+   font-size: 30px;
+   font-weight: bold;
+   padding: 200px;
+   padding-left: 200px;
+   padding-top: 100px;
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+.noneGroup{
+   width:100%;
+   font-size: 30px;
+   font-weight: bold;
+   padding: 200px;
+   padding-left: 200px;
+   padding-top: 100px;
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+#goRegisterProduct{
+   cursor: pointer;
+   border: 0px solid #fffcf5;
+   color: #df7d35;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+#goRegisterBoard{
+   cursor: pointer;
+   border: 0px solid #fffcf5;
+   color: #df7d35;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+#golist {
+    cursor: pointer;
+    border: 1px solid #fffcf5;
+    color: #0080ff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 중고물품 검색결과 테이블 */
+.product_list {
+   width: 100%;
+   border-top: 2px solid navy;
+}
+
+
+.product_list_wrap {
+   width: 100%;
+   padding: 50px;
+}
+
+
+table {
+   border-collapse: collapse;
+}
+
+
+.product_list tr {
+   border-bottom: 1px solid #ccc;
+}
+
+.product_list th, .product_list td {
+   padding: 10px;
+   font-size: 15px;
+}
+
+.product_list thead * {
+   text-align: center;
+}
+
+.product_list tbody * {
+   text-align: center;
+}
+
+.product_list tbody tr td:nth-child(2) {
+   text-align: center;
+}
+
+
+
+
+
+/* 자유게시판 검색결과 테이블 */
+.board_list_wrap {
+   width: 100%;
+   padding: 50px;
+}
+
+.board_list {
+   width: 100%;
+   border-top: 2px solid navy;
+}
+
+.board_list tr {
+   border-bottom: 1px solid #ccc;
+}
+
+.board_list th, .board_list td {
+   padding: 10px;
+   font-size: 15px;
+}
+
+.board_list thead * {
+   text-align: center;
+}
+
+.board_list tbody * {
+   text-align: center;
+}
+
+.board_list tbody tr td:nth-child(2) {
+   text-align: center;
+}
+
+
+/* 공동구매 검색결과 테이블 */
+.group_list_wrap {
+   width: 100%;
+   padding: 50px;
+}
+
+.group_list {
+   width: 100%;
+   border-top: 2px solid navy;
+}
+
+.group_list tr {
+   border-bottom: 1px solid #ccc;
+}
+
+.group_list th, .group_list td {
+   padding: 10px;
+   font-size: 15px;
+}
+
+.group_list thead * {
+   text-align: center;
+}
+
+.group_list tbody * {
+   text-align: center;
+}
+
+.group_list tbody tr td:nth-child(2) {
+   text-align: center;
+}
+
+.title:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}

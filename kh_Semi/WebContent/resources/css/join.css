@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#join {
+   margin-left: 25%;
+}
+
+#content-area>h1{
+   font-family: 'Noto Sans KR', sans-serif;
+    font-size: 35px;
+}
+
+#content>h1{
+   font-family: 'Noto Sans KR', sans-serif;
+   font-size: 35px;
+   margin-left: 50px;
+   font-weight: bold;
+}
+
+#content button[type="button"] {
+   background: lightgray;
+   border-radius: 10px;
+   border: 1px solid lightgray;
+   font-weight: bold;
+   width: 80px;
+   height: 30px;
+   margin-left: 10px;
+}
+
+#content button[type=submit] {
+   background: orange;
+   border-radius: 10px;
+   border: 1px solid orange;
+   font-weight: bold;
+   width: 10px;
+   height: 40px;
+   color: white;
+   font-size: 20px;
+}

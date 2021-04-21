@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+#advertise {
+/* 	position: relative;
+	top: -80%;
+	right: -15%; */
+	border: 1px solid black;
+	width: 150px;
+	height: 570px;
+	float: right;
+	text-align: center;
+	background-color: white;
+}
+
+
+#advertise * {
+	background-color: white;
+}
+
+/* #advertise {
+	position: fixed;
+	width: 150px;
+	height: 550px;
+	top: 20%;
+	right: 0;
+	border: 1px solid black;
+	background: white;
+	float: right;
+	text-align: center;
+	font-family: 'Do Hyeon', sans-serif;
+} */
+
+
+/* #advertise {
+	position: fixed;
+	display:inline-block;
+	width: 150px;
+	height: 550px;
+	top: 20%;
+	right: 0;
+	border: 1px solid black;
+	background: white;
+	float: right;
+	text-align: center;
+	font-family: 'Do Hyeon', sans-serif;
+	margin-right : 30px;
+} */
+
+
+
+
+
+
+#adImg {
+	width: 120px;
+	height: 120px;
+	border: 1;
+}
+
+#topbt{
+	background-color: #fffcf5;
+	position : absolute;
+	top : -12%;
+	right : 0;
+	font-size : 40px;
+	font-family: 'Do Hyeon', sans-serif;
+	border : none;
+	z-index: -1;
+}
