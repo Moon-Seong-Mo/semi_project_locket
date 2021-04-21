@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="LOCKET" id="FF912B2E-29DF-A24F-7D09-A64F3B7294EE" mainViewID="8FDB1942-F30F-BC6E-E6E9-B60079B9554F">
-<createdBy>tkdrm</createdBy>
-<createdTime>2020-11-05 09:12:57 UTC</createdTime>
-<ownerDesignName>클래스 다이어그램</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
-</relationalModel>

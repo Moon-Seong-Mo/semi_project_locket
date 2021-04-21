@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="AD9B20BE-33B9-8821-CD06-185293F9E463">
-<createdBy>tkdrm</createdBy>
-<createdTime>2020-11-05 09:12:31 UTC</createdTime>
-<ownerDesignName>클래스 다이어그램</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>
